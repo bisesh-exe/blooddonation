@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include the same head content as in your existing page -->
+</head>
+<body>
+
+<div class="page">
+
+    <!-- Include the menu bar from your existing page -->
+    <div class="menuBar">
+        <!-- Your existing menu bar content -->
+    </div>
+
+    <!-- Banner section similar to your existing page -->
+    <div class="banner" style="background-image: url('assets/images/pexels-photo-69096.jpg');background-repeat: no-repeat;background-attachment: fixed;
+    background-size: cover;">
+        <div class="shadow-main">
+            <h1>Post Your Donation Request</h1>
+        </div>
+    </div>
+
+    <!-- Main content section -->
+    <div class="main-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+                    <div class="leave-reply">
+                        <div class="form-login">
+                            <form action="/submit_donation_request" method="post">
+                                <h3>Post Your Donation Request</h3>
+                                <div class="form-group">
+                                    <label for="ad_title">Ad Title:</label>
+                                    <input type="text" class="form-control" id="ad_title" name="ad_title" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="ad_description">Ad Description:</label>
+                                    <textarea class="form-control" id="ad_description" name="ad_description" rows="5" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact_info">Contact Information:</label>
+                                    <input type="text" class="form-control" id="contact_info" name="contact_info" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="donation_amount">Desired Donation Amount:</label>
+                                    <input type="number" class="form-control" id="donation_amount" name="donation_amount" required>
+                                </div>
+                                <button type="submit" class="red-btn red-btn-news">Submit Request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the footer from your existing page -->
+    <div id="footer"></div>
+
+</div><!--  /.page -->
+
+<!-- Include the same JavaScript code as in your existing page -->
+</body>
+</html>
